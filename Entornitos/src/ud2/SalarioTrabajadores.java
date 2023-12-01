@@ -12,6 +12,7 @@ public class SalarioTrabajadores
 		final int numTrabajadores = pedirTrabajadores();
 		calculoSalario(tarifa, numTrabajadores);
 		System.out.println("FIN");
+		System.out.println("Esto es desde el ordenador");
 	}
 	
 	public static int pedirTarifa()
