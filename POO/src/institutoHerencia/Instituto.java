@@ -24,7 +24,5 @@ public class Instituto
 		System.out.println(pf1.getDNI());
 		System.out.println(pf1.getEspecialidad());
 		System.out.println(pf1.toString());
-		System.out.println("Solo comprobar que funciona bien");
-		System.out.println("Y esto¿?");
 	}
 }
