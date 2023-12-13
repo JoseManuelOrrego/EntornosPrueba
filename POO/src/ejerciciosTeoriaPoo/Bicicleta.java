@@ -4,20 +4,20 @@ public class Bicicleta
 {
 	protected int velocidadActual;
 	protected int platoActual;
-	protected int piñonActual;
+	protected int pinnonActual;
 	
-	public Bicicleta(int velocidadActual, int platoActual, int piñonActual)
+	public Bicicleta(int velocidadActual, int platoActual, int pinnonActual)
 	{
 		this.velocidadActual = velocidadActual;
 		this.platoActual = platoActual;
-		this.piñonActual = piñonActual;
+		this.pinnonActual = pinnonActual;
 	}
 	
 	public Bicicleta()
 	{
 		velocidadActual = 0;
 		platoActual = 1;
-		piñonActual = 1;
+		pinnonActual = 1;
 	}
 
 	public int getVelocidad()
@@ -38,13 +38,13 @@ public class Bicicleta
 		this.platoActual = platoActual;
 	}
 	
-	public int getPiñon()
+	public int getpinnon()
 	{
-		return piñonActual;
+		return pinnonActual;
 	}
-	public void setPiñon(int piñonActual)
+	public void setpinnon(int pinnonActual)
 	{
-		this.piñonActual = piñonActual;
+		this.pinnonActual = pinnonActual;
 	}
 	
 	public void acelerar()
@@ -62,9 +62,9 @@ public class Bicicleta
 		this.platoActual = plato;
 	}
 	
-	public void cambiarPiñon(int piñon)
+	public void cambiarpinnon(int pinnon)
 	{
-		this.piñonActual = piñon;
+		this.pinnonActual = pinnon;
 	}
 	
 	public void cambiarPlato()
@@ -72,8 +72,8 @@ public class Bicicleta
 		this.platoActual = 1;
 	}
 	
-	public void cambiarPiñon()
+	public void cambiarpinnon()
 	{
-		this.piñonActual = 1;
+		this.pinnonActual = 1;
 	}
 }

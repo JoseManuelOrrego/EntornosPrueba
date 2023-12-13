@@ -1,12 +1,12 @@
 package ejerciciosTeoriaPoo;
 
-public class BicicletaMontaña extends Bicicleta
+public class BicicletaMontanna extends Bicicleta
 {
 	protected int suspension;
 	
-	public BicicletaMontaña(int velocidadActual, int platoActual, int piñonActual, int suspension)
+	public BicicletaMontanna(int velocidadActual, int platoActual, int pinnonActual, int suspension)
 	{
-		super(velocidadActual, platoActual, piñonActual);
+		super(velocidadActual, platoActual, pinnonActual);
 		this.suspension = suspension;
 	}
 	

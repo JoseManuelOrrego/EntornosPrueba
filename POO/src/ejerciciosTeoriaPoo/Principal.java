@@ -7,7 +7,7 @@ public class Principal
 		Bicicleta miBicicleta = new Bicicleta(1,2,3);
 		Bicicleta tuBicicleta = new Bicicleta(3,2,1);
 		
-		BicicletaMontaña bicimountain = new BicicletaMontaña(5, 2, 4, 9);
+		BicicletaMontanna bicimountain = new BicicletaMontanna(5, 2, 4, 9);
 		BicicletaTandem bicitandem = new BicicletaTandem(5, 3, 6, 2);
 		
 		bicimountain.acelerar();

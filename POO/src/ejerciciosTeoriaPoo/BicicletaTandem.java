@@ -4,9 +4,9 @@ public class BicicletaTandem extends Bicicleta
 {
 protected int numAsientos;
 	
-	public BicicletaTandem(int velocidadActual, int platoActual, int piñonActual, int numAsientos)
+	public BicicletaTandem(int velocidadActual, int platoActual, int pinnonActual, int numAsientos)
 	{
-		super(velocidadActual, platoActual, piñonActual);
+		super(velocidadActual, platoActual, pinnonActual);
 		this.numAsientos = numAsientos;
 	}
 	
