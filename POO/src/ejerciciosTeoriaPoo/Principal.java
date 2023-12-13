@@ -16,7 +16,7 @@ public class Principal
 		bicitandem.acelerar();
 		System.out.println(bicitandem.getVelocidad());
 		
-
+		bicimountain.acelerarNormal();
 		
 		Bicicleta[] arraybicis = {miBicicleta, tuBicicleta, bicimountain, bicitandem};
 		for(int i = 0; i < arraybicis.length; i++)

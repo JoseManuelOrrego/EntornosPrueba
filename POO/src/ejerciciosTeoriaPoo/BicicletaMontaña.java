@@ -19,5 +19,10 @@ public class BicicletaMontaña extends Bicicleta
 	{
 		this.velocidadActual*= 3;
 	}
+	
+	public void acelerarNormal()
+	{
+		super.acelerar();
+	}
 
 }
