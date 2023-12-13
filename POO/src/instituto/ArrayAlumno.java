@@ -4,6 +4,7 @@ public class ArrayAlumno
 {
 	public static void main(String[] args) 
 	{
+		System.out.println("Vamos a probar si funciona lo de las branchs");
 		Alumno [] listAlumnos = new Alumno[5];
 		Alumno a1 = new Alumno("Yoshi", 24, 6, new Fecha(15,9,2020));
 		Alumno a2 = new Alumno("Carly", 55, 3, new Fecha(12,4,2022));
