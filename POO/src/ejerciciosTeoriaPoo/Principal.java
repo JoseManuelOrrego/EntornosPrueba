@@ -23,6 +23,7 @@ public class Principal
 		{
 			arraybicis[i].acelerar();
 			System.out.println(arraybicis[i].getVelocidad());
+			System.out.println("holas");
 		}
 	}
 }
