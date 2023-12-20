@@ -5,8 +5,8 @@ public class Animales
 	private double peso;
 	private String nombre;
 	private boolean buenaSalud;
-	private String nombreEspecie; //constante cuando se inicialice
-	private int dosisComida;  //constante cuando se inicialice
+	private final String nombreEspecie;
+	private final int dosisComida;
 	
 	public Animales(double peso, String nombre, boolean buenaSalud, String nombreEspecie, int dosisComida)
 	{
@@ -17,6 +17,39 @@ public class Animales
 		this.dosisComida = dosisComida;
 	}
 	
+	public double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public boolean isBuenaSalud() {
+		return buenaSalud;
+	}
+
+	public void setBuenaSalud(boolean buenaSalud) {
+		this.buenaSalud = buenaSalud;
+	}
+
+	public String getNombreEspecie() {
+		return nombreEspecie;
+	}
+
+	public int getDosisComida() {
+		return dosisComida;
+	}
+
+
 	//Métodos de un animal: hacerSonido, comer, cuidados, producir
 	public void sonido()
 	{
