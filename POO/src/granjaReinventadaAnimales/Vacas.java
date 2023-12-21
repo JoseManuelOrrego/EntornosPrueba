@@ -4,22 +4,22 @@ import java.util.Random;
 
 public class Vacas extends Animales
 {
-	private boolean estaPreñada;
+	private boolean estaPrenada;
 	
 	public Vacas(String nombre, boolean buenaSalud, String nombreEspecie)
 	{
 		super(150, nombre, buenaSalud, nombreEspecie, 15);
-		setPreñada(false);
+		setPrenada(false);
 	}
 	
-	public boolean isPreñada()
+	public boolean isPrenada()
 	{
-		return this.estaPreñada;
+		return this.estaPrenada;
 	}
 	
-	public void setPreñada(boolean estaPreñada)
+	public void setPrenada(boolean estaPrenada)
 	{
-		this.estaPreñada = estaPreñada;
+		this.estaPrenada = estaPrenada;
 	}
 	
 	public void sonido()
@@ -30,7 +30,7 @@ public class Vacas extends Animales
 	public void producir()
 	{
 		int litrosLeche = 0;
-		if(isPreñada())
+		if(isPrenada())
 		{
 			if(isBuenaSalud())
 			{
@@ -47,11 +47,11 @@ public class Vacas extends Animales
 		Random ra = new Random();
 		if(ra.nextBoolean())
 		{
-			setPreñada(true);
+			setPrenada(true);
 		}
 		else
 		{
-			setPreñada(false);
+			setPrenada(false);
 		}
 	}
 }
