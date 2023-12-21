@@ -6,9 +6,9 @@ public class Vacas extends Animales
 {
 	private boolean estaPrenada;
 	
-	public Vacas(String nombre, boolean buenaSalud, String nombreEspecie)
+	public Vacas(String nombre)
 	{
-		super(150, nombre, buenaSalud, nombreEspecie, 15);
+		super(150, nombre, "Vacas", 15);
 		setPrenada(false);
 	}
 	

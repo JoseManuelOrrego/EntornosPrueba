@@ -8,11 +8,10 @@ public class Animales
 	private final String nombreEspecie;
 	private final int dosisComida;
 	
-	public Animales(double peso, String nombre, boolean buenaSalud, String nombreEspecie, int dosisComida)
+	public Animales(double peso, String nombre, String nombreEspecie, int dosisComida)
 	{
 		this.peso = peso;
 		this.nombre = nombre;
-		this.buenaSalud = buenaSalud;
 		this.nombreEspecie = nombreEspecie;
 		this.dosisComida = dosisComida;
 	}

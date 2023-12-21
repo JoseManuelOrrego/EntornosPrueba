@@ -5,7 +5,7 @@ import granjaReinventadaAnimales.Animales;
 public class Veterinarios extends Empleados
 {
 	private int experiencia;
-	public Veterinarios(String nombre, String especialidad)
+	public Veterinarios(String nombre)
 	{
 		super(nombre);
 		this.experiencia = 0;
