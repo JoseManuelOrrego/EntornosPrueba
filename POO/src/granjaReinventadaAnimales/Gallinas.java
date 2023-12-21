@@ -4,9 +4,9 @@ public class Gallinas extends Animales
 {
 	private int numHuevos;
 	
-	public Gallinas(String nombre, boolean buenaSalud, String nombreEspecie)
+	public Gallinas(String nombre)
 	{
-		super(1, nombre, buenaSalud, nombreEspecie, 1);
+		super(1, nombre, "Gallinas", 1);
 		setNumHuevos(0);
 	}
 	
@@ -40,5 +40,6 @@ public class Gallinas extends Animales
 		sonido();
 		
 		System.out.println("La gallina " + getNombre() + " acaba de producir " + huevosProducidos + " huevos.");
+		System.out.println();
 	}
 }

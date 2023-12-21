@@ -43,6 +43,7 @@ public class Vacas extends Animales
 			sonido();
 		}
 		System.out.println("La vaca " + getNombre() + " ha producido " + litrosLeche + " litros de leche.");
+		System.out.println();
 		
 		Random ra = new Random();
 		if(ra.nextBoolean())

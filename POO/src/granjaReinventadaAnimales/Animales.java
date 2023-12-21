@@ -59,11 +59,11 @@ public class Animales
 	{
 		if(esEficiente && buenaSalud)
 		{
-			peso *= 0.1*dosisComida;
+			peso += 0.1*dosisComida;
 		}
 		else
 		{
-			peso *= 0.01*dosisComida;
+			peso += 0.01*dosisComida;
 		}
 	}
 	

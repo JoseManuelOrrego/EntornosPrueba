@@ -2,9 +2,9 @@ package granjaReinventadaAnimales;
 
 public class Cerdos extends Animales
 {
-	public Cerdos(String nombre, boolean buenaSalud, String nombreEspecie)
+	public Cerdos(String nombre)
 	{
-		super(50, nombre, buenaSalud, nombreEspecie, 10);
+		super(50, nombre, "Cerdos", 10);
 	}
 	
 	public void sonido()

@@ -38,7 +38,7 @@ public class Empleados
 		this.animal = animal;
 	}
 	
-	public void aTrabajar()
+	public void aTrabajar(Animales animal)
 	{
 		System.out.println("Me llamo " + getNombre() + " y he trabajado con " + animal.getNombre());
 		setNomina(getNomina()*0.001);
