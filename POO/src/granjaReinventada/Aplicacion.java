@@ -60,7 +60,7 @@ public class Aplicacion
 		
 		for(int i = 0; i < arrayAnimales.length; i++)
 		{
-			System.out.println(arrayAnimales[i].getNombre() + " : " + arrayAnimales[i].getPeso());
+			System.out.println(arrayAnimales[i].getNombre() + " : " + arrayAnimales[i].getPeso() + " kg");
 		}
 	}
 }
