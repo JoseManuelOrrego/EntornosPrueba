@@ -8,7 +8,7 @@ public class AreaTriangulo
 	{
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.print("Introduce la base del triángulo: ");
+		System.out.print("Introduce la base del triï¿½ngulo: ");
 		double base = entrada.nextDouble();
 		System.out.println("Introduce la altura del triangulo: ");
 		double altura = entrada.nextDouble();
@@ -21,4 +21,17 @@ public class AreaTriangulo
 	{
 		return (base*altura)/2;
 	}
+	
+	public static double clcularAreaCircunferencia(double radio)
+	{
+		return 3.1415 * radio * radio;
+		
+	}
+	
+	public static double calcularPerimetroCircunferencia (double radio)
+	{
+		return 2 * 3.1415 * radio;
+		
+	}
+	
 }
