@@ -42,4 +42,10 @@ public class Areas
 	{
 		return base*altura;
 	}
+	
+	 public static double calcularAreaCubo(double lado) 
+	 {
+	        return 6 * lado * lado;
+	 }
+	
 }
