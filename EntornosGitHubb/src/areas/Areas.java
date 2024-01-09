@@ -33,6 +33,11 @@ public class Areas
 		return 2 * 3.1415 * radio;
 	}
 	
+	public static double calcularAreaCilindro(double radio, double altura) 
+    {
+        return 2 * 3.1415 * radio * (radio + altura);
+    }
+	
 	public static double calculoAreaRectangulo(double base, double altura)
 	{
 		return base*altura;
