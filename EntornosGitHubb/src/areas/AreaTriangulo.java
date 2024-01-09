@@ -13,11 +13,11 @@ public class AreaTriangulo
 		System.out.println("Introduce la altura del triangulo: ");
 		double altura = entrada.nextDouble();
 		
-		double resultado = calcularArea(base, altura);
+		double resultado = calcularAreaTriangulo(base, altura);
 		System.out.println("El area del triangulo es: " + resultado);
 	}
 
-	public static double calcularArea(double base, double altura) 
+	public static double calcularAreaTriangulo(double base, double altura) 
 	{
 		return (base*altura)/2;
 	}
@@ -31,7 +31,10 @@ public class AreaTriangulo
 	public static double calcularPerimetroCircunferencia (double radio)
 	{
 		return 2 * 3.1415 * radio;
-		
 	}
 	
+	public static double calculoAreaRectangulo(double base, double altura)
+	{
+		return base*altura;
+	}
 }
