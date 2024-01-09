@@ -2,7 +2,7 @@ package areas;
 
 import java.util.Scanner;
 
-public class AreaTriangulo 
+public class Areas 
 {
 	public static void main(String[] args) 
 	{
